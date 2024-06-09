@@ -34,7 +34,7 @@ const DashHeader = () => {
     useEffect(() => {
         if (isSuccess) 
         {
-          console.log("success")
+         // console.log("success")
           navigate('/')
         }
           
