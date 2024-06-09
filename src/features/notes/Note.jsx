@@ -15,7 +15,6 @@ const Note = ({ noteId }) => {
     const navigate = useNavigate()
 
     if (note) {
-        console.log(note)
         
         const created = new Date(note.createdAt).toLocaleString('en-IN', { day: 'numeric', month: 'long' })
 
