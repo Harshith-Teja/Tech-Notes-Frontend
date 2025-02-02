@@ -11,16 +11,16 @@ const Public = () => {
         </h1>
       </header>
       <main className="public__main">
-        <p>
+        <p style={{ margin: "20px" }}>
           Located in Beautiful Hyderabad City, Vishnu Repairs provides a trained
           staff ready to meet your tech repair needs.
         </p>
-        <p>
+        <p style={{ margin: "20px" }}>
           Tech notes is a software that can be used by the employees & managers
           in a tech repair shop to track the work notes/designated tasks. The
           notes can be created, updated, assigned, opened, closed and deleted.
         </p>
-        <p>
+        <p style={{ margin: "20px" }}>
           Use the credentials 'Amar' as username and 'Aa$1234' as password to
           login to the website, these credentials have enough data for you to
           evaluate the website
