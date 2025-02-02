@@ -1,30 +1,39 @@
-import { Link } from "react-router-dom"
+import { Link } from "react-router-dom";
 
-import React from 'react'
+import React from "react";
 
 const Public = () => {
-    const content = (
-        <section className="public">
-        <header>
-            <h1>Welcome to <span className="nowrap">Vishnu Repairs!</span></h1>
-        </header>
-        <main className="public__main">
-            <p>Located in Beautiful Warangal City, Vishnu Repairs  provides a trained staff ready to meet your tech repair needs.</p>
-            <address className="public__addr">
-                Vishnu Repairs<br />
-                Ram Street<br />
-                Warangal City<br />
-                <a href="tel:+155555555555">(999) 999-9999</a>
-            </address>
-            <br />
-            <p>Owner: Vishnu Dev</p>
-        </main>
-        <footer>
-            <Link to="/login">Employee Login</Link>
-        </footer>
+  const content = (
+    <section className="public">
+      <header>
+        <h1>
+          Welcome to <span className="nowrap">Vishnu Repairs!</span>
+        </h1>
+      </header>
+      <main className="public__main">
+        <p>
+          Located in Beautiful Hyderabad City, Vishnu Repairs provides a trained
+          staff ready to meet your tech repair needs.
+        </p>
+        <p>
+          Tech notes is a software that can be used by the employees & managers
+          in a tech repair shop to track the work notes/designated tasks. The
+          notes can be created, updated, assigned, opened, closed and deleted.
+        </p>
+        <p>
+          Use the credentials 'Amar' as username and 'Aa$1234' as password to
+          login to the website, these credentials have enough data for you to
+          evaluate the website
+        </p>
+        <br />
+        <p>Owner: Vishnu Dev</p>
+      </main>
+      <footer>
+        <Link to="/login">Employee Login</Link>
+      </footer>
     </section>
-    )
-  return content
-}
+  );
+  return content;
+};
 
-export default Public
+export default Public;
